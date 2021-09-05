@@ -280,6 +280,10 @@ section {
     .works {
         padding-right: 40px;
     }
+
+    .flex-column h2 {
+        justify-content: center; 
+    }
 }
 
  @media screen and (max-width: 768px) {
