@@ -77,7 +77,7 @@ footer {
     width: 100%;
     padding: 40px 35px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -102,6 +102,7 @@ section {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
+    border-bottom: solid 3px var(--tan);
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -127,23 +128,90 @@ section {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.hero h2 span {
+    color: var(--pink);
+}
 
+.about {
+    margin: 10px auto;
+    padding-bottom: 10px;
+    width: 70;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--pink);
+}
+
+.flex-row {
+    display: flex;
+}
 
 .section-title {
-    font-size: 32px;
+    font-size: 28px;
     color: var(--tan);
-    border-bottom: 3px solid var(--pink);
-    padding-bottom: 20px;
-    text-align: left;
-    margin: 0 auto 10px auto;
-    width: 50%;
+    padding: 10px;
+    text-decoration: 3px underline var(--pink);
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 20%;
 }
 
 .about p {
     line-height: 1.7;
     color: var(--off-white);
     font-size: 18px;
-    margin: 0 auto;
-    text-align: left;
-    width: 50%;
+    display: flex;    
+    justify-content: flex-start;
+    flex: 2 80%;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-site {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 80%;
+}
+.works a img {
+    max-width: 100%
+}
+
+.sites {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.contact {
+    margin: 10px auto;
+    padding-bottom: 10px;
+    width: 70;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--pink);
+}
+
+.contact-info {
+    line-height: 1.7;
+    color: var(--off-white);
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;     
+    justify-content: space-between;
+}
+
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    flex: 2 70%; 
 }
