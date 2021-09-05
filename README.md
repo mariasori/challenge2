@@ -6,7 +6,7 @@ This challenge required me to build my first online portfolio of my work.  Skill
 
 ## Screenshot
 
-![image](https://github.com/mariasori/challenge2/tree/main/assets/images/site-screenshot.png)
+![site-screenshot](https://user-images.githubusercontent.com/88404610/132140061-83fe887a-5d40-4552-bf71-b36ce6c64783.png)
 
 ## Link to Application
 
