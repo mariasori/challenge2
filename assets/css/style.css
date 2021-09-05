@@ -294,5 +294,9 @@ section {
     .about-info {
         text-align: center;
     }
+    
+    .contact ul {
+        justify-content: center; 
+    }
 
 }
