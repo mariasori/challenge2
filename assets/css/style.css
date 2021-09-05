@@ -137,8 +137,10 @@ section {
 
 .flex-row {
     display: flex;
+    justify-content: center; 
     align-items: center; 
     padding-right: 40px;
+    width: 100%;
 }
 
 .section-title {
@@ -218,10 +220,6 @@ section {
 }
 
 /*contact section*/
-
-.contact {
-    padding: 40px; 
-}
 .contact ul {
     display: flex;
     flex-wrap: wrap;
@@ -236,6 +234,11 @@ section {
     color: var(--pink);
     text-decoration: none; 
 }
+
+.contact ul li a:hover {
+    color: var(--off-white);
+}
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -291,7 +294,5 @@ section {
     .about-info {
         text-align: center;
     }
-
- 
 
 }
