@@ -43,7 +43,7 @@ header h1 a {
 
 header a {
     text-decoration: none;
-    color: var(--pink)
+    color: var(--off-white)
 }
 
 header nav {
@@ -95,7 +95,6 @@ footer div {
 section {
     padding: 10px;
     display:flex;
-
 }
 
 .hero {
@@ -112,8 +111,8 @@ section {
 }
 
 .hero-info {
-    color: var(--dark-gray);
-    background-color: rgba(253,250,220, 0.8);
+    color: var(--off-white);
+    background-color: rgba(99,86,85, 0.4);
     padding: 20px;
     border: solid 1px var(--tan);
     width: 40%; 
@@ -124,7 +123,7 @@ section {
 
 .hero-info h2 {
     font-size: 45px;
-    color: var(--dark-gray);
+    color: var(--off-white);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -170,21 +169,42 @@ section {
 .works {
     display: flex;
     flex-wrap: wrap;
+    border-bottom: 1px solid var(--pink);
+}
+
+.flex-column {
+    font-size: 28px;
+    color: var(--tan);
+    padding: 10px;
+    text-decoration: 3px underline var(--pink);
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 20%;
+}
+
+.flex-column2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex: 2 70%;
 }
 
 .top-site {
     display: flex;
-    flex-wrap: wrap;
-    flex: 2 80%;
+    flex-wrap: nowrap;
+    max-width: 100%;
 }
 .works a img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .sites {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
+}
+
+.sites a {
+    padding: 5px;
 }
 
 .contact {
@@ -210,8 +230,15 @@ section {
 .contact ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
-    flex: 2 70%; 
+    padding: 20px; 
 }
+
+.contact ul li a {
+    padding: 10px 15px;
+    color: var(--off-white);
+    text-decoration: none; 
+}
+
