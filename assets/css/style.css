@@ -78,7 +78,7 @@ header nav ul li a:hover {
 footer {
     background: var(--dark-gray);
     width: 100%;
-    padding: 40px 35px;
+    padding: 20px 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -111,7 +111,6 @@ section {
     align-items: flex-end;
     background-attachment: fixed;
     background-position: 80%;
-    padding-right: 40px; 
 }
 
 .hero-info {
@@ -140,7 +139,6 @@ section {
     display: flex;
     justify-content: center; 
     align-items: center; 
-    padding-right: 40px;
     width: 100%;
 }
 
@@ -169,7 +167,7 @@ section {
 
 .about-info, .contact-info {
     line-height: 1.7;
-    padding: 30px;
+    padding: 10px;
     color: var(--off-white);
     font-size: 18px;
     justify-content: flex-start;
@@ -198,7 +196,7 @@ section {
 .flex-column2 {
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 10px;
     justify-content: flex-end;
     flex: 2 80%;
 }
@@ -231,7 +229,7 @@ section {
 }
 
 .contact ul li a {
-    padding: 10px 15px;
+    padding: 10px 10px;
     color: var(--pink);
     text-decoration: none; 
 }
@@ -263,23 +261,11 @@ section {
 
     header nav ul li a {
     font-size: 20px;
-    }
-    
-    .hero {
-        padding-right: 40px;
-    }
+    }  
 
     .hero-info {
         text-align:center;
         width: 100%;
-    }
-
-    .flex-row {
-        padding-right: 40px;
-    }
-
-    .works {
-        padding-right: 40px;
     }
 
     .flex-column h2 {
