@@ -10,4 +10,4 @@ This challenge required me to build my first online portfolio of my work.  Skill
 
 ## Link to Application
 
-https://mariasori.github.io/challenge2
+https://mariasori.github.io/Portfolio
